@@ -1,0 +1,801 @@
+
+/*-------------- Nav Bar ---------------*/
+.navbar-fixed-top {
+	background-color: white !important;
+}
+
+.navbar-nav li a h4{
+	padding-top: -10px !important;
+	padding-bottom: -10px !important;
+}
+
+.drop_link {
+	padding-top: -20px !important;
+	padding-bottom: -20px !important;
+	
+
+}
+
+.wellcome {
+	color: #5EB4D1 !important;
+}
+
+
+
+.dr_item1 {
+	font-size: 1.1em !important;
+	font-family: "Josefin Sans";
+}
+
+.dr_item2{
+	font-size: 1.2em;
+	color:#050257;
+	font-family: "Josefin Sans";
+}
+
+.dugme1 {
+	background-color: #F0FBFF!important;
+	border: 2px solid black !important;
+	font-color: black !important;
+	margin-top: -7px;
+	height: 42px;
+}
+
+.dugme1 a {
+	text-decoration: none !important;
+	color: black;
+
+}
+
+.dugme2 {
+	background-color: #F0FBFF!important;
+	border: 2px solid black !important;
+	font-color: black !important;
+	margin-top: -7px;
+	height: 42px;
+	width: 100px !important;
+}
+
+.dugme2 a {
+	text-decoration: none !important;
+	color: black;
+}
+
+.LOGO {
+	border-radius: 12px;
+	margin-left: 50px;
+	
+}
+/*------------ End Nav Bar ----------------*/
+
+/* ----------- Cover ----------------------*/
+
+.cover12{
+
+	
+}
+.cover2{
+	
+
+}
+
+.full_cover {
+	margin-top: 150px;
+
+
+}
+/*------------ End Cover ------------------*/
+
+/*------------ Ad Section ------------------*/
+
+
+.section1  {
+	padding-top:50px;
+	padding-bottom: 50px;
+	font-family: "Sans";
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "Josefin Sans";
+}
+
+
+.section2  {
+	padding-top:50px;
+	padding-bottom: 50px;
+	font-family: "Sans";
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "Josefin Sans";
+}
+
+.section3  {
+	padding-top:50px;
+	padding-bottom: 50px;
+	font-family: "Sans";
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "Josefin Sans";
+}
+
+.benefits {
+	font-size: 1.8em;
+	font-family: "Josefin Sans";
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 90px;
+	background-color: white;
+}
+
+.benefits1 {
+	font-size: 2em;
+	font-family: "Josefin Sans";
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: white;
+}
+
+
+.benefits_pozadina {
+	background-color: white !important;
+	margin-top: -20px !important;
+}
+
+/*------------- End Ad Section -------------*/
+
+
+
+.dugme-sub {
+	border:2px solid #2190B5 !important;
+	font-color:#2190B5 !important;
+	width: 190px;
+	background-color: transparent !important;
+}
+
+.dugme-sub a{
+	color: #2190B5 !important;
+}
+
+.dugme-sub:hover {
+	color: white !important;
+}
+
+.newsletters {
+	background-image: url("images/pozadina1.jpg");
+
+    /* Set a specific height */
+     
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mcform_link:hover {
+	text-decoration: none;
+	color:white;
+}
+
+.mcform_link {
+	color:white;
+}
+
+.footer {
+	background-color: #14DE97;
+}
+
+.footer-dist {
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.footer-blocks{
+	display: inline-block;
+	padding-left: 50px;
+	text-decoration: none;
+	color: black;
+	font-size:14px;
+	color: white;
+}
+
+.footer-blocks:hover {
+	text-decoration: none;
+	color: black;
+	font-family: 
+}
+
+.blocks {
+	font-family: "Sans";
+	color: white;
+}
+
+.logo-footer {
+	
+	margin-top: -40px;
+}
+
+.developed {
+	text-decoration: none;
+	color: black;
+	font-size:14px;
+	font-family: "Sans";
+	color: white;
+}
+
+.developed>a {
+	text-decoration: none;
+	color:#EDEDED;
+}
+
+#pozadina_form {
+	background-color:#2190B5; 
+}
+
+
+/*----------- gallery ----------*/
+
+.page-header{
+	font-size: 70px !important; 
+	margin-top:150px !important; 
+}
+
+.below-addings {
+	color:grey;
+	font-family: "Josefin Sans";
+	margin-left: 4%;
+	margin-bottom: 1%;
+	font-style: italic;
+}
+
+.gallery-image {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.gallery-image:hover {
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+.gallery-back {
+	background-color: #F5FCFF;
+}
+/* ---------end gallery -----------*/
+
+/*------------- news ----------*/
+
+.news-title {
+	font-weight: bold !important;
+	font-size: 27px;
+	font-family: "Lato";
+}
+
+.news-description {
+	font-size: 1.1em;
+	font-family: "Lato";
+}
+
+.news-image:hover {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.read-more {
+	font-size: 1em;
+	font-family: "Lato";
+}
+
+.read-more:hover{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.news-date {
+	font-size: 0.8em;
+	color: grey;
+	font-style: italic;
+}
+
+.news-back {
+	background-color: white;
+}
+
+.news-post {
+	background-color: white;
+}
+
+.news-item {
+
+}
+/*----------- end news ------------*/
+
+/*----------- faq -----------------*/
+
+.question {
+	font-size: 1.4em;
+	font-family: "Lato";
+	color: #3B3B3B;
+}
+
+.answer {
+	font-size: 1.4em;
+	font-family: "Lato";
+	color: #757575;
+	font-style: italic;
+}
+
+
+/*----------- end faq -------------*/
+
+
+/*----------- Camp Details -----------------*/
+
+.details-info {
+	font-size: 1.7em;
+	font-family: "Josefin Sans";;
+	color: #434545;
+	margin-top: 50px;
+}
+
+/*----------- End Camp Details -----------------*/
+
+.modaldugme1 {
+	padding:10px;
+	color:#fff;
+	background:#0098cb;
+	width:110px;
+	margin:20px auto;
+	margin-top:0px;
+	border:0px;
+	border-radius: 3px;
+}
+
+.modaldugme2 {
+	padding:10px;
+	color:#fff;
+	background:#B6BFC2;
+	width:110px;
+	margin:20px auto;
+	margin-top:0px;
+	border:0px;
+	border-radius: 3px;
+}
+
+.modaldugme1>a{
+	text-decoration: none;
+	color: white;
+}
+
+.list_buy {
+	list-style: none;
+	font-family: "Lato";
+	width: 60% !important;
+}
+
+.cover_buy {
+	background-color: #00A4DB;
+	color: white;
+}
+
+.cover_buy a, .cover_buy a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+.join1{
+	background-color: #00A4DB;
+	margin-top: 10px;
+	color: white;
+}
+.join2{
+	background-color: #0086B3;
+	margin-top: 10px;
+	color: white;
+}
+.join3{
+	background-color: #005E7D;
+	margin-top: 10px;
+	color: white;
+}
+.join4{
+	background-color: #00BFFF;
+	margin-top: 10px;
+	color: white;
+}
+
+.img_pay {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    width: 100% !important;
+    
+}
+
+.bck_index a{
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.buy-cont {
+	margin-top: 0px !important;
+}
+
+.strelica img {
+	width: 30px;
+	height: 35px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+.cov {
+	margin-left: -60px;
+}
+
+.contact_slika {
+	font-family: "Josefin Sans";
+    
+}
+
+.contact_slika img {
+	border-radius: 10px;
+}
+
+.form_contact {
+	
+}
+
+
+
+#message {
+	outline:none;
+	padding:10px;
+	display:block;
+	border-radius: 3px;
+	border:1px solid #eee;
+	margin-top: 40px;
+}
+
+}
+
+.contact_title {
+	font-size: 1.5em;
+	font-family: "Josefin Sans";
+}
+
+.contact_title1 {
+	font-size: 1.2em;
+	font-family: "Josefin Sans";
+}
+
+.facebook {
+	padding:10px;
+	color:#fff;
+	background:#3B5998;
+	width:438px;
+	margin-bottom:20px;
+	border:0px;
+	border-radius: 3px;
+	cursor:pointer;
+	margin-top: 0px;
+}
+
+.contact_title12, .contact_title12:hover{
+ 	text-decoration: none;
+ 	color:white;
+}
+
+.zvezdica {
+	color:red !important;
+}
+
+.imgblog {
+	width: 400px !important;
+	border-radius: 3px;
+	box-shadow: 3px 3px 8px black;
+
+	
+}
+
+.naslovblog {
+	margin-top: 100px !important;
+	margin-bottom: 50px !important;
+	color: #042029;
+}
+
+.pozadina_blog {
+	background-color: #C4E9F5;
+	font-family: "Josefin Sans";
+}
+
+.titleblog {
+	padding-bottom: 60px;
+	color: white!important;
+}
+
+.titlebloglink , .titlebloglink:hover{
+	padding-bottom: 60px;
+	color: #042029 !important;
+}
+
+.staff_title {
+	font-family: "Josefin Sans";
+}
+
+.staff_info {
+	font-family: "Josefin Sans";
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+
+.details_staff_title {
+	font-family: "Josefin Sans";
+	margin-left: 30px;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.note {
+	font-family: "Josefin Sans";
+	margin-left: 30px;
+	font-size: 1.1em
+}
+
+.legend1 {
+	font-family: "Josefin Sans";
+	font-size: 1.1em;
+	text-align: left;
+	}
+
+.legend2 {
+	font-family: "Josefin Sans";
+	font-size: 1em;
+	text-align: left;
+	padding-top: -20px;
+	}
+
+.legend {
+	font-family: "Josefin Sans";
+	padding-bottom: 20px;
+}
+
+.blog-item-title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 4em;
+	margin-top: 50px;
+	}
+
+.blog-item-descr {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.4em;
+	line-height: 150%;
+	}
+
+.blog-item-img {
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+.blog-item-descr1 {
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 1.4em;
+ 	word-spacing: 3px;
+ 	line-height: 150%;
+	}	
+
+.blog_poz {
+	background-color: white;
+}	
+
+.author {
+	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 1.2em
+}
+
+.date {
+	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 1.2em
+}
+
+.nazad {
+	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 1.2em;
+ 	text-decoration: none;
+}
+
+.about_text {
+	margin-top: 200px;
+	font-size: 1.7em;
+	font-family: "Josefin Sans";
+	text-align: center;
+}
+
+.about_instructors {
+	font-size: 1.7em;
+	font-family: "Josefin Sans";
+	text-align: center;
+	padding-top: 50px;
+}
+
+.adminpanel1 {
+	background-color: #F5206B;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+
+}
+.adminpanel2{
+	background-color: #C4BE00;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+ 	
+}
+.adminpanel3 {
+	background-color: #4E2DF7;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+
+}
+
+.adminpanel1 h1 {
+	color: white;
+	font-family: 'Oxygen';
+
+}
+.adminpanel2 h1 {
+	color: white;
+	font-family: 'Oxygen';
+}
+.adminpanel3 h1 {
+	color: white;
+	font-family: 'Oxygen';
+}
+
+.adminpanel1:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);
+
+}
+.adminpanel2:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);
+}
+.adminpanel3:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);
+}
+
+.table-admin {
+	margin-top:50px;
+	margin-bottom: 150px;
+	border: 2px solid black;
+	font-size: 1.6em;
+
+}
+
+.table-admin2 {
+	margin-top:50px;
+	border: 2px solid black;
+	font-size: 1.6em;
+	
+}
+
+.table-row-admin td{
+	border: 1px solid black;
+	padding: 3px 5px 3px 5px;
+	text-align: center;
+}
+
+.table_head {
+	background-color: #E8E8E8;
+}
+
+.title_stats {
+	margin-top: 200px !important;
+	font-family: 'Oxygen';
+}
+
+.table-row-admin  th {
+	border: 1px solid black;
+	padding: 3px 5px 3px 5px;
+	text-align: center;
+
+}
+
+.mods-admin {
+	margin-top: 100px;
+}
+
+.mod1 {
+	background-color: #FF4040;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+}
+
+
+.mod2 {
+	background-color: #5040FF;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+}
+
+
+.mod3 {
+	background-color: #40FF79;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+}
+
+
+.mod4 {
+	background-color: #FFE240;
+	padding-bottom: 200px;
+	padding-top: 200px;
+ 	border-radius: 8px;
+ 	border: 2px white solid;
+}
+
+.mod1 h1 {
+	font-family: 'Oxygen';
+	color: white;
+}
+.mod2 h1 {
+	font-family: 'Oxygen';
+	color: white;
+}
+.mod3 h1 {
+	font-family: 'Oxygen';
+	color: white;
+}
+.mod4 h1 {
+	font-family: 'Oxygen';
+	color: white;
+}
+
+.mod1:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);
+}
+.mod2:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);	
+}
+.mod3:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);
+}
+.mod4:hover {
+	-webkit-filter: grayscale(10%); /* Chrome, Safari, Opera */
+    filter: grayscale(10%);
+}
+
+.footer-admin {
+	margin-top: 280px;
+	background-color: #EBEBEB;
+}
+
+input[type="text"] {
+	width: 400px !important;
+	}
+
+input[type="submit"] {
+	margin-top: 20px;
+}
+
+.table_details_admin {
+	margin-top: 10px !important;
+}
+
+body{
+	font-family: 'Oxygen' !important;
+}

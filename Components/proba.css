@@ -1,0 +1,234 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans+Narrow";
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-size: 12px;
+  font-family: 'PT Sans Narrow';
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+
+
+
+.watch {
+  width: 150px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 150px);
+}
+
+.strap {
+  background: #292929;
+  height: 100%;
+  width: 90px;
+  border-left: 5px solid #4a4a4a;
+  border-right: 5px solid #4a4a4a;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * calc(90px + 10px));
+}
+
+.face {
+  background: #292929;
+  border: 5px solid #4CFA11;
+  border-radius: 15px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 50%;
+  margin-top: calc(-0.5 * 150px);
+  box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.6), inset 0 0 50px 0 rgba(0, 0, 0, 0.6);
+}
+
+.numeral {
+  background: #4a4a4a;
+  height: 20px;
+  width: 4px;
+}
+
+.n-12, .n-6 {
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 4px);
+}
+
+.n-3, .n-9 {
+  height: 4px;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: calc(-0.5 * 4px);
+}
+
+.n-12 {
+  top: 5px;
+}
+
+.n-6 {
+  bottom: 5px;
+}
+
+.n-3 {
+  right: 5px;
+}
+
+.n-9 {
+  left: 5px;
+}
+
+.cntrpt {
+  background: #4CFA11;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: calc(-0.5 * 10px);
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 10px);
+}
+
+.crown {
+  background: #4a4a4a;
+  height: 20px;
+  width: 10px;
+  right: -10px;
+  position: absolute;
+  top: 50%;
+  margin-top: calc(-0.5 * 20px);
+}
+
+.hand {
+  background: #4a4a4a;
+  position: absolute;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.hours {
+  width: 6px;
+  height: calc(0.2 * 140px);
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 6px);
+  top: calc(0.5 * 140px - calc(0.2 * 140px));
+}
+
+.mins {
+  width: 4px;
+  height: calc(0.3 * 140px);
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 4px);
+  top: calc(0.5 * 140px - calc(0.3 * 140px));
+}
+
+.secs {
+  background: white;
+  width: 2px;
+  height: calc(0.4 * 140px);
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 2px);
+  top: calc(0.5 * 140px - calc(0.4 * 140px));
+}
+
+.day {
+  background: #292929;
+  color: #4CFA11;
+  border: 1px solid white;
+  width: calc(0.13 * 140px);
+  height: calc(0.1 * 140px);
+  line-height: calc(0.1 * 140px);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: calc(-0.5 * calc(0.13 * 140px));
+  right: 28px;
+}
+
+.logo {
+  color: #4CFA11;
+  width: 40px;
+  letter-spacing: 5px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-0.5 * 40px);
+  top: 36px;
+  font-family: 'VT323', cursive !important;
+  font-size: 20px;
+}
+
+video { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.left {
+  z-index: 9999;
+  color: white;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+  position:absolute;
+  margin-top: 50px;
+  font-size: 4.5em;
+  margin-left: 50px;
+  margin-right: 48%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.left1 {
+  z-index: 9999;
+  color: black;
+  text-shadow: -1px 0 #A8A8A8, 0 1px #A8A8A8, 1px 0 #A8A8A8, 0 -1px #A8A8A8;
+  position:absolute;
+  margin-top: 250px;
+  font-size: 2.5em;
+  margin-left: 50px;
+  font-family: 'Work Sans', sans-serif;
+  
+}
+
+.link_left {
+  text-decoration: none;
+  color: black;
+  margin-right: 48%;
+}
+
+.right {
+  z-index: 9999;
+  color: black;
+  text-shadow: -1px 0 #A8A8A8, 0 1px #A8A8A8, 1px 0 #A8A8A8, 0 -1px #A8A8A8;
+  position:absolute;
+  margin-top: 50px;
+  font-size: 2.5em;
+  margin-left: 60%;
+  margin-right: 50px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: right;
+  line-height: 150%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+    z-index: -9999;
+
+}

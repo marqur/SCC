@@ -1,0 +1,67 @@
+body{
+	margin:0px !important;
+	padding:0px!important;
+	font-family: 'Varela Round', cursive !important;
+	text-align:center !important;
+}
+
+input[type="email"],input[type="text"], input[type="password"]{
+	outline:none !important;
+	padding:10px !important;
+	display:block !important;
+	width:300px !important;
+	border-radius: 3px !important; 
+	border:1px solid #eee !important;
+	margin:20px auto !important;
+}
+
+
+input[type="submit"]{
+	padding:10px !important;
+	color:#fff !important;
+	background:#0098cb !important;
+	width:320px !important;
+	margin:20px auto !important;
+	margin-top:0px !important;
+	border:0px !important;
+	border-radius: 3px !important;
+	cursor:pointer !important;
+}
+
+.email_in_form{
+	outline:none !important;
+	padding:10px !important;
+	display:block !important;
+	width:300px !important;
+	border-radius: 3px !important;
+	border:1px solid #eee !important;
+	margin:20px auto !important;
+}
+
+input[type="submit"]:hover{
+	background:#00b8eb !important;
+}
+
+.header{
+	border-bottom:1px solid #eee !important;
+	padding:10px 0px !important;
+	width:100% !important;
+	text-align:center !important;
+	font-size: 2em;
+	
+}
+
+.header a{
+	color:#333 !important;
+	text-decoration: none !important;
+}
+
+#emailinuse{
+	color: #FF5757 !important;
+	border: 1px solid #FF5757 !important; 
+}
+
+a {
+	text-decoration: none !important;
+	color: #2D9CC2 !important;
+}
